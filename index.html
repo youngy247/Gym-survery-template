@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gym Survey</title>
+</head>
+<body>
+    <h1 id="title"> Gym Survey</h1>
+    <p id="description">Please take your time to carry out the feedback survey below on the gym so that we can plan improvements and make the gym a better place to be in for all</p>
+    
+    <form id="survey-form"> 
+      <label for ="name" id="name-label"> Name: </label><br>
+      <input type="text" id="name" name="name" placeholder="Full Name" required> <br>
+      <label for ="email" id ="email-label"> Email: </label> <br>
+      <input type ="email" id="email" name="email" placeholder ="Email Address" required><br>
+    
+      <label for ="age" id="number-label"> Age: </label><br>
+      <input type ="number" id ="number" name="age" min ="14" max = "85" placeholder="Age"required> <br>
+      <br>
+      <div class="dropdown-form"
+      <label for="dropdown"> Choose what you enjoy the most: </label> <br>
+      <select name ="dropdown" id="dropdown" required> 
+        <option disabled selected value> Select faviourte </option>
+        <option value ="Powerlifting"> Powerlifting </option>
+        <option value ="Bodybuilding"> Bodybuidling </option>
+        <option value ="Crossfit"> Crossfit </option>
+        <option value ="General wellness"> General wellness </option>
+      </select>
+      </div>
+      <br>
+      <div class="time-form">
+        <p> Please select which time you usually use the gym </p>
+        <input type = "radio" id="morning" name="time" value ="Morning">
+      <label for="morning"> Morning (0600-1100) </label><br>
+        <input type = "radio" id="afternoon" name="time" value ="Afternoon">
+      <label for="morning"> Afternoon (1100-1600) </label><br>
+        <input type = "radio" id="evening" name="time" value ="Evening">
+      <label for="morning"> Evening (1600-2100) </label></div><br>
+      <div class="feature-form">
+    <p> What is your favioute feature of the gym? </p>
+    <select name ="dropdown-feature" id="dropdown-feature" required> 
+        <option disabled selected value> Select faviourte </option>
+        <option value ="Community"> Community </option>
+        <option value ="Classes"> Classes </option>
+        <option value ="Equipment"> Equipment </option>
+        <option value ="Music"> Music </option>
+      </select> </div><br>
+      <div class="improvement-form">
+        <fieldset>
+            <legend>What would you like to see improved? (Check all that apply)></legend>
+    <input type="checkbox" id="improvement1" name="improvement1" value="Classes">
+    <label for="improvement1"> More classes</label><br>
+    <input type="checkbox" id="improvement2" name="improvement2" value="Staff">
+    <label for="improvement2"> Hiring more staff</label><br>
+    <input type="checkbox" id="improvement3" name="improvement3" value="Equipment">
+    <label for="improvement3"> More/improve equipment</label><br>
+    <input type="checkbox" id="improvement4" name="improvement4" value="Outdoor">
+    <label for="improvement4"> Outdoor space</label><br>
+    <input type="checkbox" id="improvement5" name="improvement5" value="Nutrition">
+    <label for="improvement5"> Nutrition Shop</label>
+            <fieldset
+</div><br>
+    
+    
+    <label for="feedback">Please elaborate on your selections above and any other suggestions you have for the gym.</label> <br> <br>
+    
+    <textarea id="feedback" name="feedback" rows="6" cols="50">
+    
+    </textarea> <br><br>
+    
+    <input type="submit" id="submit">
+    </form>  
+</body>
+</html>

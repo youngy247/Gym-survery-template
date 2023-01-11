@@ -6,8 +6,14 @@
   }
 
 .container {
-    width: 100%;
+    width: 70%;
     margin: 3.125rem auto 0 auto;
+}
+#title {
+  padding: 30px 0 0 30px;
+  margin-bottom: 50px;
+  
+  font-size: 4rem;
 }
 
 
@@ -19,6 +25,9 @@
   input {
     margin: 3px;
     padding: 4px;
+  }
+  #number {
+    width: 70px;
   }
   
   input:focus,
@@ -76,4 +85,8 @@ textarea:focus {
   
   input[type=submit]:hover {
     background-color: #45a049;
+  }
+  #submit{
+    margin-bottom: 50px;
+    width: 8rem;
   }

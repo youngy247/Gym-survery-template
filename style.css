@@ -5,9 +5,14 @@
     text-align: center;
   }
 
+  body {
+    background-color: rgba(227, 163, 80, 0.321);
+  }
+
 .container {
     width: 70%;
     margin: 3.125rem auto 0 auto;
+    background-color: bisque;
 }
 #title {
   padding: 30px 0 0 30px;

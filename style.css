@@ -11,8 +11,9 @@
 
 .container {
     width: 70%;
-    margin: 3.125rem auto 0 auto;
+    margin: 3.125rem auto 3.125rem auto;
     background-color: bisque;
+    
 }
 .header {
   background-color: rgba(220, 179, 19, 0.442);

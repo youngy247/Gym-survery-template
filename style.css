@@ -13,6 +13,7 @@
     width: 70%;
     margin: 3.125rem auto 3.125rem auto;
     background-color: bisque;
+    border: 1.5px solid black;
     
 }
 .header {
@@ -36,9 +37,10 @@
 
 
   form {
-    display: block;
-    padding-top: 50px;
+    display: inline-block;
+    padding-top: 40px;
     margin: 0 80px;
+    border-top: 1.5px solid black;
     
   }
   

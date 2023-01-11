@@ -42,8 +42,10 @@
     margin: 0 80px;
     border-top: 1.5px solid black;
     
-  }
+    }
   
+
+
   input {
     margin: 3px;
     padding: 4px;
@@ -106,7 +108,7 @@ textarea:focus {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #73e929;
   }
   #submit{
     margin-bottom: 50px;

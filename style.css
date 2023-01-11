@@ -10,7 +10,7 @@
   }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: 3.125rem auto 3.125rem auto;
     background-color: bisque;
     border: 1.5px solid black;
@@ -40,7 +40,7 @@
     display: inline-block;
     padding-top: 40px;
     margin: 0 80px;
-    border-top: 1.5px solid black;
+    
     
     }
   
